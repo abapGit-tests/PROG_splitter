@@ -21,45 +21,6 @@
       <LINES>027</LINES>
       <COLUMNS>120</COLUMNS>
      </HEADER>
-     <FLOW_LOGIC>
-      <RPY_DYFLOW>
-       <LINE>PROCESS BEFORE OUTPUT.</LINE>
-      </RPY_DYFLOW>
-      <RPY_DYFLOW>
-       <LINE>  MODULE set_status.</LINE>
-      </RPY_DYFLOW>
-      <RPY_DYFLOW>
-       <LINE>  MODULE set_sash.</LINE>
-      </RPY_DYFLOW>
-      <RPY_DYFLOW>
-       <LINE>  CALL SUBSCREEN subscreen1</LINE>
-      </RPY_DYFLOW>
-      <RPY_DYFLOW>
-       <LINE>       INCLUDING &apos;DEMO_DYNPRO_SPLITTER_CONTROL&apos; &apos;110&apos;.</LINE>
-      </RPY_DYFLOW>
-      <RPY_DYFLOW>
-       <LINE>  CALL SUBSCREEN subscreen2</LINE>
-      </RPY_DYFLOW>
-      <RPY_DYFLOW>
-       <LINE>       INCLUDING &apos;DEMO_DYNPRO_SPLITTER_CONTROL&apos; &apos;120&apos;.</LINE>
-      </RPY_DYFLOW>
-      <RPY_DYFLOW/>
-      <RPY_DYFLOW>
-       <LINE>PROCESS AFTER INPUT.</LINE>
-      </RPY_DYFLOW>
-      <RPY_DYFLOW>
-       <LINE>  MODULE cancel AT EXIT-COMMAND.</LINE>
-      </RPY_DYFLOW>
-      <RPY_DYFLOW>
-       <LINE>  MODULE get_sash.</LINE>
-      </RPY_DYFLOW>
-      <RPY_DYFLOW>
-       <LINE>  CALL SUBSCREEN subscreen1.</LINE>
-      </RPY_DYFLOW>
-      <RPY_DYFLOW>
-       <LINE>  CALL SUBSCREEN subscreen2.</LINE>
-      </RPY_DYFLOW>
-     </FLOW_LOGIC>
      <NAT_HEADER>
       <PROG>ZDEMO_DYNPRO_SPLITTER_CONTROL</PROG>
       <DNUM>0100</DNUM>
@@ -189,14 +150,6 @@
        <INPUT_FLD>X</INPUT_FLD>
       </RPY_DYFATC>
      </FIELDS>
-     <FLOW_LOGIC>
-      <RPY_DYFLOW>
-       <LINE>PROCESS BEFORE OUTPUT.</LINE>
-      </RPY_DYFLOW>
-      <RPY_DYFLOW>
-       <LINE>PROCESS AFTER INPUT.</LINE>
-      </RPY_DYFLOW>
-     </FLOW_LOGIC>
     </item>
     <item>
      <HEADER>
@@ -256,14 +209,6 @@
        <INPUT_FLD>X</INPUT_FLD>
       </RPY_DYFATC>
      </FIELDS>
-     <FLOW_LOGIC>
-      <RPY_DYFLOW>
-       <LINE>PROCESS BEFORE OUTPUT.</LINE>
-      </RPY_DYFLOW>
-      <RPY_DYFLOW>
-       <LINE>PROCESS AFTER INPUT.</LINE>
-      </RPY_DYFLOW>
-     </FLOW_LOGIC>
     </item>
    </DYNPROS>
    <CUA>
